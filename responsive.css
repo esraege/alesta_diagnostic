@@ -1,0 +1,70 @@
+@media (max-width: 991px) {
+  .carousel-item {
+    height: 200px;
+  }
+  #iletisim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #iletisim iframe {
+    width: 100%;
+  }
+
+
+
+  #neler-yapiyoruz .box h1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .home-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .carousel-item .center-content {
+    justify-content: end;
+  }
+
+  .slider-text {
+    width: 100%;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-text {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .carousel-item {
+    height: 400px;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+
+
+
+@media only screen and (min-width: 1824px) {
+  
+
+  #iletisim iframe {
+    width: 750px;
+    height: 500px;
+  }
+}
